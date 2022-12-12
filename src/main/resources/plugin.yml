@@ -1,0 +1,13 @@
+name: Particles
+version: '${project.version}'
+main: fr.kenda.particles.Particles
+api-version: 1.19
+authors: [ Kenda ]
+description: Plugin de particules
+commands:
+  particles:
+    aliases:
+      - particles
+      - effect
+      - effects
+    description: command base for plugin

@@ -1,0 +1,45 @@
+##################################################
+#                 particles plugin               #
+#                   made by Kenda               #
+##################################################
+#prefix of this plugin
+prefix: "&c[Particles] "
+
+#Section messages
+messages:
+  #Send this message if sender can't execute a command, with a reason (%reason% => error reason)
+  no_permission: "&cError, you can't execute this command. (%reason%)"
+  #Message if sender doesn't have permission
+  permission_insufficient: "&cInsufficient permission"
+  #Section particle
+  particles:
+    #Message if particle shortcut doesn't exist (%name% => name given in command)
+    not_exist: "&cParticle %name% does not exist"
+  #Section gui
+  gui:
+    #Title of gui (%prefix% => prefix of plugin)
+    title: "%prefix%"
+
+#section permission
+permission:
+  #Permission to open gui
+  open_gui: "particles.open"
+  #section of permission for particle
+  particles:
+    #permission for fly particle
+    fly: "particles.fly"
+
+#section particle
+particles:
+  fly:
+    #shortcut of command
+    shortcut: "fly"
+    #material in gui
+    material: FEATHER
+    #name of particle (gui)
+    name: "Magic Cloud"
+    #lores of item in gui
+    lores:
+      - "&aCan fly with this particles"
+      - "\n"
+      - "&7"
